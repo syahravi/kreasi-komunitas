@@ -22,5 +22,5 @@ Route::get('/sign-in', function(){
 });
 
 Route::get('/sign-up', function(){
-    return view('auth.sign-in');
+    return view('auth.sign-up');
 });

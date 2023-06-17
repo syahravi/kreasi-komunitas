@@ -10,6 +10,10 @@
         @livewireStyles
     </head>
     <body>
+        <div style="text-align: center">
+            <a href="/sign-in">Sign In</a>
+            <a href="/sign-up">Sign Up</a>
+        </div> 
         @livewire('counter')
         @livewireScripts
     </body>

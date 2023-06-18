@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="fixed has-top-menu">
+<html class="wide has-top-menu">
 	<head>
 
 		{{-- *Basic --}}
@@ -37,15 +37,9 @@
 			<div class="inner-wrapper">
 				<section role="main" class="content-body">
 					<header class="page-header">
-						<h2>Profile</h2>
-
-						<div class="right-wrapper text-end">
-							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fas fa-chevron-left"></i></a>
-						</div>
+						<h2>Syahravi</h2>
 					</header>
 					<h1>Iya bagus..</h1>
-
-                    @include('layouts.sidebar')
 				</section>
 			</div>
 		</section>

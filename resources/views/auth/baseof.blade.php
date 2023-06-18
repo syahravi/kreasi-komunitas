@@ -17,12 +17,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
 
 		{{-- *Vendor CSS --}}
-		<link rel="stylesheet" href="{{ asset('css/vendor/bootstrap.min.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/vendor/font-awesome/css/all.min.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/vendor/boxicons/css/boxicons.min.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/vendor/theme.css') }}" />
+		<link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" />
+		<link rel="stylesheet" href="{{ asset('vendor/font-awesome/css/all.min.css') }}" />
+		<link rel="stylesheet" href="{{ asset('vendor/boxicons/css/boxicons.min.css') }}" />
 
 		{{-- *Skin CSS --}}
+		<link rel="stylesheet" href="{{ asset('css/theme.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/default.css') }}" />
 
 		{{-- *Kreasi Komunitas CSS --}}

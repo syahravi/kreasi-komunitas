@@ -1,4 +1,4 @@
-@extends('auth.main')
+@extends('auth.baseof')
 
 @section('title', 'Sign In | Kreasi Komunitas')
 
@@ -11,14 +11,14 @@
 
             <div class="panel card-sign">
                 <div class="card-title-sign mt-3 text-end">
-                    <h2 class="title text-uppercase font-weight-bold m-0"><i class="bx bx-user-circle me-1 text-6 position-relative top-5"></i> Sign In</h2>
+                    <h2 class="title text-uppercase font-weight-bold m-0"><i class="bx bx-user-circle me-1 text-6 position-relative top-5"></i>Masuk</h2>
                 </div>
                 <div class="card-body">
                     <form action="index.html" method="post">
                         <div class="form-group mb-3">
-                            <label>Username</label>
+                            <label>Surel</label>
                             <div class="input-group">
-                                <input name="username" type="text" class="form-control form-control-lg" />
+                                <input name="username" type="text" class="form-control form-control-lg" placeholder="nama@email.com" />
                                 <span class="input-group-text">
                                     <i class="bx bx-user text-4"></i>
                                 </span>
@@ -27,11 +27,11 @@
 
                         <div class="form-group mb-3">
                             <div class="clearfix">
-                                <label class="float-left">Password</label>
-                                <a href="/recover-password" class="float-end">Lost Password?</a>
+                                <label class="float-left">Sandi</label>
+                                <a href="{{ route('reset-password') }}" class="float-end">Lupa kata sandi?</a>
                             </div>
                             <div class="input-group">
-                                <input name="pwd" type="password" class="form-control form-control-lg" />
+                                <input name="pwd" type="password" class="form-control form-control-lg" placeholder="Kata sandi Anda" />
                                 <span class="input-group-text">
                                     <i class="bx bx-lock text-4"></i>
                                 </span>
@@ -42,11 +42,11 @@
                             <div class="col-sm-8">
                                 <div class="checkbox-custom checkbox-default">
                                     <input id="RememberMe" name="rememberme" type="checkbox"/>
-                                    <label for="RememberMe">Remember Me</label>
+                                    <label for="RememberMe">Ingat saya</label>
                                 </div>
                             </div>
                             <div class="col-sm-4 text-end">
-                                <button type="submit" class="btn btn-primary mt-2">Sign In</button>
+                                <button type="submit" class="btn btn-primary mt-2">Masuk</button>
                             </div>
                         </div>
 
@@ -60,7 +60,7 @@
                             <a class="btn btn-twitter mb-3 ms-1 me-1" href="#">Connect with <i class="fab fa-twitter"></i></a>
                         </div> --}}
 
-                        <p class="text-center">Don't have an account yet? <a href="/sign-up">Sign Up!</a></p>
+                        <p class="text-center">Belum punya akun. <a href="{{ route('sign-up') }}">Daftar disini</a></p>
 
                     </form>
                 </div>

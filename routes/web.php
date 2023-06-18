@@ -17,10 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/sign-in', function(){
+Route::get('/masuk', function(){
     return view('auth.sign-in');
-});
+})->name('sign-in');
 
-Route::get('/sign-up', function(){
+Route::get('/mendaftar', function(){
     return view('auth.sign-up');
-});
+})->name('sign-up');
+
+Route::get('/lupa-password', function(){
+    return view('auth.reset-password');
+})->name('reset-password');

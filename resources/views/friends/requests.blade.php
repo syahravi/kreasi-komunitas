@@ -1,0 +1,1 @@
+Halaman permintaan pertemanan untuk pengguna.

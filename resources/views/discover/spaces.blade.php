@@ -1,0 +1,1 @@
+Halaman "Discover Spaces" yang menampilkan daftar ruang (spaces) yang menarik atau populer bagi pengguna.

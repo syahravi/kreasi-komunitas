@@ -28,3 +28,7 @@ Route::get('/mendaftar', function(){
 Route::get('/lupa-password', function(){
     return view('auth.reset-password');
 })->name('reset-password');
+
+Route::get('/username', function () {
+    return view('profiles.show');
+})->name('profiles');

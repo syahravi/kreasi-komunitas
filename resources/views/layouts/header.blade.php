@@ -143,9 +143,8 @@
                 <figure class="profile-picture">
                     <img src="{{ asset('img/sample-user.jpg') }}" alt="Syahravi" class="rounded-circle" data-lock-picture="{{ asset('img/sample-user.jpg') }}" />
                 </figure>
-                <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
-                    <span class="name">John Doe Junior</span>
-                    <span class="role">administrator</span>
+                <div class="profile-info" data-lock-name="Syahravi" data-lock-email="syahravi.id@gmail.com">
+                    <span class="name">Syahravi</span>
                 </div>
 
                 <i class="fa custom-caret"></i>

@@ -12,17 +12,17 @@ class Counter extends Component
     public function mount()
     {
         // Inisialisasi data
-        $this->count = Semangat::where('id', 1)->first()->count;
+        $this->count = Semangat::first()->count;
     }
     function increment(){
         $this->count++;
-        $count = Semangat::where('id', 1)->first();
+        $count = Semangat::first();
         $count->count = $this->count;
         $count->save();
     }
     function decrement() {
         $this->count--;
-        $count = Semangat::where('id', 1)->first();
+        $count = Semangat::first();
         $count->count = $this->count;
         $count->save();
 

@@ -11,8 +11,11 @@
     </head>
     <body>
         <div style="text-align: center">
-            <a href="{{ route('sign-in') }}">Masuk</a>
             <a href="{{ route('sign-up') }}">Mendaftar</a>
+            <hr>
+            <a href="{{ route('sign-in') }}">Masuk</a>
+            <hr>
+            <a href="{{ route('profiles') }}">Profile (Username)</a>
         </div> 
         @livewire('counter')
         @livewireScripts

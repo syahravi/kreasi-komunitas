@@ -35,4 +35,4 @@ Route::get('/username', function () {
 
 Route::get('/user', function () {
     return view('profiles.edit');
-})->name('profiles');
+});

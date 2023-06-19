@@ -32,3 +32,7 @@ Route::get('/lupa-password', function(){
 Route::get('/username', function () {
     return view('profiles.show');
 })->name('profiles');
+
+Route::get('/user', function () {
+    return view('profiles.edit');
+})->name('profiles');

@@ -10,7 +10,7 @@
                         <img src="{{ asset('img/user-profile.jpg') }}" class="rounded img-fluid" alt="John Doe">
                         <div class="thumb-info-title">
                             <span class="thumb-info-inner">Syahravi</span>
-                            <span class="thumb-info-type">Mahasiswa</span>
+                            <span class="thumb-info-type">Unusia</span>
                         </div>
                     </div>
 

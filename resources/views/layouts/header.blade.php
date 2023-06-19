@@ -14,7 +14,22 @@
                     <ul class="nav nav-pills" id="mainNav">
                         <li class="">
                             <a class="nav-link" href="layouts-default.html">
-                                Beranda
+                                Feed
+                            </a>    
+                        </li>
+                        <li class="">
+                            <a class="nav-link" href="layouts-default.html">
+                                Discovery
+                            </a>    
+                        </li>
+                        <li class="">
+                            <a class="nav-link" href="layouts-default.html">
+                                Spaces
+                            </a>    
+                        </li>
+                        <li class="">
+                            <a class="nav-link" href="layouts-default.html">
+                                Events
                             </a>    
                         </li>
                     </ul>
@@ -103,7 +118,7 @@
                             <li>
                                 <a href="#" class="clearfix">
                                     <figure class="image">
-                                        <img src="" alt="" class="rounded-circle" />
+                                        <img src="{{ asset('img/sample-user.jpg') }}" alt="" class="rounded-circle" />
                                     </figure>
                                     <span class="title">Fajri Hidayat</span>
                                     <span class="message">Iya bagus.</span>
@@ -126,7 +141,7 @@
         <div id="userbox" class="userbox">
             <a href="#" data-bs-toggle="dropdown">
                 <figure class="profile-picture">
-                    <img src="{{ asset('img/logo.png') }}" alt="Syahravi" class="rounded-circle" data-lock-picture="{{ asset('img/logo.png') }}" />
+                    <img src="{{ asset('img/sample-user.jpg') }}" alt="Syahravi" class="rounded-circle" data-lock-picture="{{ asset('img/sample-user.jpg') }}" />
                 </figure>
                 <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
                     <span class="name">John Doe Junior</span>

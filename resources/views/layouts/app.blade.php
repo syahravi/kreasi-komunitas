@@ -39,7 +39,8 @@
 					<header class="page-header">
 						<h2>Syahravi</h2>
 					</header>
-					<h1>Iya bagus..</h1>
+					
+					@yield('content')
 				</section>
 			</div>
 		</section>

@@ -16,23 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/masuk', function(){
-    return view('auth.sign-in');
-})->name('sign-in');
-
-Route::get('/mendaftar', function(){
-    return view('auth.sign-up');
-})->name('sign-up');
-
-Route::get('/lupa-password', function(){
-    return view('auth.reset-password');
-})->name('reset-password');
-
-Route::get('/username', function () {
-    return view('profiles.show');
-})->name('profiles');
-
-Route::get('/user', function () {
-    return view('profiles.edit');
-});

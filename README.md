@@ -5,12 +5,17 @@
 - composer install,
 - copy file .env.example to .env,
 - php artisan key:generate,
-- Jalankan Apache dan MySQL di XAMPP,
-- Akses localhost/phpmyadmin
-- Buat database kk.sql atau Import kk.sql, dan
+- Jalankan MySQL di XAMPP,
+- Akses database
+- Buat database kreasikomunitas, dan
+- php artisan migrate atau import kk.sql
 - php artisan serve
 
 ## Tools
+- Laravel
+    - PHP v8.2.7
+    - MySQL v8.0.30
+    - Framework Laravel 10.13.5
 - Front end
     - Bootstrap v5.0.2
     - Boxicons

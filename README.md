@@ -29,3 +29,7 @@
 1.  60% #E74C3C + #E74D3C80: Merah - Mencerminkan semangat, keberanian, dan keaktifan.
 2.  30% #3498DB : Biru Muda - Menyiratkan ketenangan, harmoni, dan kejernihan.
 3.  10% #2ECC40 : Hijau Daun - Memberikan kesan segar, alami, dan sehat.
+
+```bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+```

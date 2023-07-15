@@ -1,5 +1,5 @@
 # Sosial Media Unusia
-> Semangatt
+> Jalani apa yang kamu sukai.
 
 ## Instalasi Sosial Media Unusia (Laravel)
 - composer install,

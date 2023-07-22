@@ -1,12 +1,15 @@
 import './bootstrap';
 
+import Alpine from 'alpinejs';
+
 window.Alpine = Alpine;
 
 Alpine.start();
 
-import Alpine from 'alpinejs';
+import $ from 'jquery';
+window.$ = $;
 
 import.meta.glob([
-  '../images/**',
-  '../fonts/**',
-]);
+    '../images/**',
+    '../fonts/**',
+  ]);

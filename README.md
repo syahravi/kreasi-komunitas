@@ -1,3 +1,8 @@
 # Kreasi Komunitas
 ## Kreasi Komunitas (Laravel)
--[x] Tallstack
+- Laravel breeze
+- Tallstack
+- Tallstack auth
+  - Debugbar
+  - Minifier
+  - Database

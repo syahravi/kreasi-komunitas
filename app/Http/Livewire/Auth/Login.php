@@ -27,7 +27,7 @@ class Login extends Component
         $this->validate();
 
         if (!Auth::attempt(['email' => $this->email, 'password' => $this->password], $this->remember)) {
-            $this->addError('email', trans('auth.failed'));
+            $this->addError('password', trans('Password tidak sesuai.'));
 
             return;
         }

@@ -12,7 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('spaces', function (Blueprint $table) {
-            $table->uuid('id');
+            $table->uuid('id')->primary();
+            $table->string('space_name');
+            $table->string('space_description');
             $table->softDeletes($column = 'deleted_at', $precision = 0);
             $table->timestamps();
         });

@@ -18,3 +18,6 @@
     - Comment::onlyTrashed()->get();
   - *Restore* data yang terhapus.
     - Comment::onlyTrashed()->find($id)->restore();
+## Useful Resources
+- Tailwind
+  - Tailbits.com

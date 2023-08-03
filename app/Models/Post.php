@@ -14,5 +14,6 @@ class Post extends Model
     protected $primaryKey = "id";
     protected $dates = ['delete_at'];
     protected $fillable = [
-        
+        'post_text',
+        'user_id',
     ];}

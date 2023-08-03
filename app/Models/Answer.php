@@ -14,6 +14,8 @@ class Answer extends Model
     protected $primaryKey = "id";
     protected $dates = ['delete_at'];
     protected $fillable = [
-        
+        'answer_text',
+        'question_id',
+        'user_id',
     ];
 }

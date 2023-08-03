@@ -9,10 +9,12 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class PostComment extends Model
 {
     use HasFactory, SoftDeletes;
-    protected $table = "questions";
+    protected $table = "post_comments";
     protected $primaryKey = "id";
     protected $dates = ['delete_at'];
     protected $fillable = [
-        
+        'comment_text',
+        'post_id',
+        'parent_id',
     ];
 }

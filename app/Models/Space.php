@@ -11,6 +11,7 @@ class Space extends Model
     protected $primaryKey = "id";
     protected $dates = ['delete_at'];
     protected $fillable = [
-        
+        'space_name',
+        'space_description',
     ];
 }

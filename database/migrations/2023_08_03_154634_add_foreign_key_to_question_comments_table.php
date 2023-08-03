@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('question_comments', function (Blueprint $table) {
-            $table->foreign('parent_id')->references('id')->on('post_comments');
+            $table->foreign('parent_id')->references('id')->on('question_comments');
         });
     }
 

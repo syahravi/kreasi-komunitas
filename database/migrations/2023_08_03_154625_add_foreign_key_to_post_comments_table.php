@@ -11,10 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('comments', function (Blueprint $table) {
-            $table->uuid('id');
-            $table->softDeletes($column = 'deleted_at', $precision = 0);
-            $table->timestamps();
+        Schema::table('post_comments', function (Blueprint $table) {
+            $table->foreign('parent_id')->references('id')->on('post_comments');
         });
     }
 
@@ -23,6 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('comments');
+        Schema::table('post_comments', function (Blueprint $table) {
+            //
+        });
     }
 };

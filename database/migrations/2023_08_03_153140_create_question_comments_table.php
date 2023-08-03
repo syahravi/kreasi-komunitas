@@ -11,11 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('posts', function (Blueprint $table) {
+        Schema::create('question_comments', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->string('post_text');
-            $table->uuid('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->string('comment_text');
+            $table->uuid('question_id');
+            $table->foreign('question_id')->references('id')->on('questions');
+            $table->uuid('parent_id')->nullable();
             $table->softDeletes($column = 'deleted_at', $precision = 0);
             $table->timestamps();
         });
@@ -26,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('posts');
+        Schema::dropIfExists('question_comments');
     }
 };

@@ -15,7 +15,7 @@ class QuestionComment extends Model
     protected $dates = ['delete_at'];
     protected $fillable = [
         'comment_text',
-        'post_id',
+        'question_id',
         'parent_id',
     ];
 }

@@ -1,5 +1,14 @@
 # Kreasi Komunitas
 ## Kreasi Komunitas (Laravel)
+### Instalasi Kreasi Komunitas (Laravel)
+- git clone ...
+- copy file `.env.local` dengan `.env`
+- composer i
+- npm i
+- php artisan migrate
+- php artisan storage:link
+- npm run dev
+- npm run build
 ### Laravel Stacks
 - Laravel breeze
 - Tallstack
@@ -21,3 +30,4 @@
 ## Useful Resources
 - Tailwind
   - Tailbits.com
+  - Landingfolio.com

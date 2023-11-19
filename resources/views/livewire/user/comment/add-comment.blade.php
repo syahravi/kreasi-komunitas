@@ -1,7 +1,7 @@
 <!-- resources/views/livewire/add-comment.blade.php -->
 
 <div>
-    <h3>Awlagi</h3>
+    <h3>Komentar</h3>
 
     <div>
         <!-- Display existing comments -->

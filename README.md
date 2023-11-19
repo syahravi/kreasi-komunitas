@@ -31,3 +31,4 @@
 - Tailwind
   - Tailbits.com
   - Landingfolio.com
+- Spatie-permission

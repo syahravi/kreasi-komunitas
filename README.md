@@ -5,6 +5,8 @@
 - copy file `.env.local` dengan `.env`
 - composer i
 - npm i
+  - sudo npm install -g n
+  - sudo n latest
 - php artisan migrate
 - php artisan storage:link
 - npm run dev

@@ -6,3 +6,5 @@
   - Debugbar
   - Minifier
   - Database
+- Tailwind
+  - k-wd-dashboard

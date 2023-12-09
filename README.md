@@ -34,3 +34,5 @@
   - Tailbits.com
   - Landingfolio.com
 - Spatie-permission
+- Tailwind
+  - k-wd-dashboard

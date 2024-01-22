@@ -5,9 +5,9 @@
     'driver' => 'mysql',
     'host' => 'localhost',
     'port' => 3306,
-    'database' => 'kk',
+    'database' => 'kreasi-komunitas',
     'username' => 'root',
-    'password' => 'raavi909',
+    'password' => '',
     'charset' => 'utf8mb4',
     'collation' => 'utf8mb4_unicode_ci',
     'prefix' => '',
@@ -15,7 +15,7 @@
     'engine' => 'InnoDB',
     'prefix_indexes' => true,
   ),
-  'url' => 'http://kreasi-komunitas.cc',
+  'url' => 'https://kreasi-komunitas.cc',
   'paths' => 
   array (
     'api' => 'api',

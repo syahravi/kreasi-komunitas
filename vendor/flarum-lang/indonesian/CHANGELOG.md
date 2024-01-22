@@ -2,6 +2,97 @@ CHANGELOG
 =========
 
 
+1.15.0 (2024-01-17)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert)
+* [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
+Semua perubahan: [1.14.1...1.15.0](https://github.com/flarum-lang/indonesian/compare/1.14.1...1.15.0).
+
+
+1.14.1 (2023-12-28)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+Semua perubahan: [1.14.0...1.14.1](https://github.com/flarum-lang/indonesian/compare/1.14.0...1.14.1).
+
+
+1.14.0 (2023-12-25)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+* [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+
+
+Semua perubahan: [1.13.0...1.14.0](https://github.com/flarum-lang/indonesian/compare/1.13.0...1.14.0).
+
+
+1.13.0 (2023-12-06)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget)
+* [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
+* [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+
+
+Semua perubahan: [1.12.0...1.13.0](https://github.com/flarum-lang/indonesian/compare/1.12.0...1.13.0).
+
+
 1.12.0 (2023-11-01)
 -------------------
 

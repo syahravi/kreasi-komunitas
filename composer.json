@@ -21,6 +21,8 @@
         "docs": "https://docs.flarum.org/"
     },
     "require": {
+        "afrux/asirem": "*",
+        "clarkwinkelmann/flarum-ext-reset-preferences": "*",
         "flarum-lang/indonesian": "*",
         "flarum/approval": "*",
         "flarum/bbcode": "*",
@@ -40,8 +42,13 @@
         "flarum/subscriptions": "*",
         "flarum/suspend": "*",
         "flarum/tags": "*",
+        "fof/forum-statistics-widget": "*",
+        "fof/nightmode": "*",
+        "fof/oauth": "*",
+        "glowingblue/password-strength": "*",
         "matteocontrini/flarum-imgur-upload": "*",
-        "nearata/flarum-ext-signup-confirm-password": "*"
+        "nearata/flarum-ext-signup-confirm-password": "*",
+        "sycho/flarum-advanced-extension-categories": "*"
     },
     "config": {
         "preferred-install": "dist",

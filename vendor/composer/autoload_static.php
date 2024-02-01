@@ -141,6 +141,10 @@ class ComposerStaticInit447b007ece13770c2e3c43fe4993fa0e
         array (
             'Opis\\Closure\\' => 13,
         ),
+        'N' => 
+        array (
+            'Nearata\\SignUpConfirmPassword\\' => 30,
+        ),
         'M' => 
         array (
             'Monolog\\' => 8,
@@ -170,6 +174,7 @@ class ComposerStaticInit447b007ece13770c2e3c43fe4993fa0e
         'I' => 
         array (
             'Intervention\\Image\\' => 19,
+            'ImgurUpload\\' => 12,
             'Illuminate\\View\\' => 16,
             'Illuminate\\Validation\\' => 22,
             'Illuminate\\Translation\\' => 23,
@@ -474,6 +479,10 @@ class ComposerStaticInit447b007ece13770c2e3c43fe4993fa0e
         array (
             0 => __DIR__ . '/..' . '/opis/closure/src',
         ),
+        'Nearata\\SignUpConfirmPassword\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nearata/flarum-ext-signup-confirm-password/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -547,6 +556,10 @@ class ComposerStaticInit447b007ece13770c2e3c43fe4993fa0e
         'Intervention\\Image\\' => 
         array (
             0 => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image',
+        ),
+        'ImgurUpload\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/matteocontrini/flarum-imgur-upload/src',
         ),
         'Illuminate\\View\\' => 
         array (

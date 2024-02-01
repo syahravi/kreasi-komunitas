@@ -85,3 +85,55 @@ Generating autoload files
 Use the `composer fund` command to find out more!
 No security vulnerability advisories found.
   
+[2024-01-22 08:17:15] composer.INFO: require "nearata/flarum-ext-signup-confirm-password:*" -W
+D:\Syahravi\Public\Apps\Laravel\kreasi-komunitas/composer.json has been updated
+Running composer update nearata/flarum-ext-signup-confirm-password --with-all-dependencies
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking nearata/flarum-ext-signup-confirm-password (v3.1.1)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading nearata/flarum-ext-signup-confirm-password (v3.1.1)
+  - Installing nearata/flarum-ext-signup-confirm-password (v3.1.1): Extracting archive
+<warning>Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.</warning>
+Generating autoload files
+87 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+No security vulnerability advisories found.
+  
+[2024-01-22 08:19:34] composer.ERROR: require "flagrow/flarum-ext-image-upload:*" -W
+D:\Syahravi\Public\Apps\Laravel\kreasi-komunitas/composer.json has been updated
+Running composer update flagrow/flarum-ext-image-upload --with-all-dependencies
+Loading composer repositories with package information
+Updating dependencies
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - flagrow/flarum-ext-image-upload[0.1.0, ..., 0.1.5] require flarum/core ^0.1.0-beta.4 -> found flarum/core[v0.1.0-beta.4, ..., v0.1.0-beta.16] but it does not match your minimum-stability.
+    - flagrow/flarum-ext-image-upload[0.2.0, ..., 0.2.3] require flarum/core ^0.1.0-beta.5 -> found flarum/core[v0.1.0-beta.5, ..., v0.1.0-beta.16] but it does not match your minimum-stability.
+    - flagrow/flarum-ext-image-upload[0.3.0, ..., 0.3.1] require flarum/core ^0.1.0-beta.6 -> found flarum/core[v0.1.0-beta.6, ..., v0.1.0-beta.16] but it does not match your minimum-stability.
+    - Root composer.json requires flagrow/flarum-ext-image-upload * -> satisfiable by flagrow/flarum-ext-image-upload[0.1.0, ..., 0.3.1].
+
+
+Installation failed, reverting D:\Syahravi\Public\Apps\Laravel\kreasi-komunitas/composer.json and D:\Syahravi\Public\Apps\Laravel\kreasi-komunitas/composer.lock to their original content.
+  
+[2024-01-22 08:20:16] composer.INFO: require "matteocontrini/flarum-imgur-upload:*" -W
+D:\Syahravi\Public\Apps\Laravel\kreasi-komunitas/composer.json has been updated
+Running composer update matteocontrini/flarum-imgur-upload --with-all-dependencies
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking matteocontrini/flarum-imgur-upload (v3.9.1)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading matteocontrini/flarum-imgur-upload (v3.9.1)
+  - Installing matteocontrini/flarum-imgur-upload (v3.9.1): Extracting archive
+<warning>Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.</warning>
+Generating autoload files
+87 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+No security vulnerability advisories found.
+  

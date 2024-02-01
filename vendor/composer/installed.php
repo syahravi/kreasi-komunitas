@@ -739,6 +739,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'matteocontrini/flarum-imgur-upload' => array(
+            'pretty_version' => 'v3.9.1',
+            'version' => '3.9.1.0',
+            'reference' => 'a478a84e7409c904cd2b7e0fd0f2107c68aad548',
+            'type' => 'flarum-extension',
+            'install_path' => __DIR__ . '/../matteocontrini/flarum-imgur-upload',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'matthiasmullie/minify' => array(
             'pretty_version' => '1.3.71',
             'version' => '1.3.71.0',
@@ -816,6 +825,15 @@
             'replaced' => array(
                 0 => '^1.0',
             ),
+        ),
+        'nearata/flarum-ext-signup-confirm-password' => array(
+            'pretty_version' => 'v3.1.1',
+            'version' => '3.1.1.0',
+            'reference' => 'b24bba7dc0866fb6319a03054cd882ca12cd44ee',
+            'type' => 'flarum-extension',
+            'install_path' => __DIR__ . '/../nearata/flarum-ext-signup-confirm-password',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'nesbot/carbon' => array(
             'pretty_version' => '2.72.1',

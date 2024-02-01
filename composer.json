@@ -39,7 +39,9 @@
         "flarum/sticky": "*",
         "flarum/subscriptions": "*",
         "flarum/suspend": "*",
-        "flarum/tags": "*"
+        "flarum/tags": "*",
+        "matteocontrini/flarum-imgur-upload": "*",
+        "nearata/flarum-ext-signup-confirm-password": "*"
     },
     "config": {
         "preferred-install": "dist",
